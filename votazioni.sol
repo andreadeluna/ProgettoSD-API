@@ -98,7 +98,8 @@ contract Elezioni{
     function getVotiTotali() public view returns(uint){
         return votiTotali;
     }
-
+    
+    // Definizione della funzione che restituisce le informazioni relative ai candidati
     function infoCandidato(uint index) public view returns(Candidato memory){
         return candidati[index];
     }
