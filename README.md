@@ -37,6 +37,7 @@ Il contratto contiene al suo interno :
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/48562858/176996742-881cb5d9-0194-4d04-8cd9-e6d9e6c6ee70.png" width="300" height="100">
 </p>
+
 * La struttura che definisce "Elettore"
   * Nome dell'elettore
   * Bolleano per determinare se l'elettore è autorizzato a votare
@@ -45,26 +46,32 @@ Il contratto contiene al suo interno :
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/48562858/176996745-b35c715b-c97e-4b88-8e6f-883b13630da9.png" width="350" height="150">
 </p>
+
 * L'indirizzo del propietario dello smart contract. Questo indirizzo è pubblico in modo che tutti possano vedere chi è il proprietario dello smart contract
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/48562858/176996728-57227b75-ae0b-406b-a54e-d262a6af3685.png" width="300" height="50">
 </p>
+
 * Stringa pubblica per il Nome/Titolo della votazione, in modo che tutti possano verificare per quale votazione stanno votando
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/48562858/176996737-b24124bd-6f3e-426e-83c7-fddee4559c28.png" width="350" height=50">
 </p>
+																	       
 * Mappatura dell'indirizzo a un elettore; ogni indirizzo avrà la struttura dell'elettore
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/48562858/176996731-43a2dd6b-e823-4afa-94d2-8089ccdbfe7c.png" width="350" height="50">
 </p>
+																		
 * Lista che contiene l'elenco di tutti i candidati della relativa votazione
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/48562858/176996696-7a602cd9-5d59-450f-b57d-b2660152f408.png" width="350" height="50">
 </p>
+																		
 * Variabile che contiene il numero totale di voti di tutta la votazione
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/48562858/176996749-e242806a-2f86-425e-9e74-8b83a64084e9.png" width="350" height="50">
 </p>
+																		
 * Modificatore per permettere solo al proprietario dello smart contract di aggiungere nuovi candidati
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/48562858/176996733-470ec2af-b5d0-48d2-b441-10b691d525bc.png" width="350" height=120">
@@ -76,6 +83,7 @@ La persona che ha distribuito o creato il contratto diventerà il proprietario d
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/48562858/176996712-8b6a9a01-9152-466d-b09c-9f1669372388.png" width="500" height="150">
 </p>
+
 * Funzione per l'aggiunta di un nuovo candidato alla lista dei candidati. Prende come parametro di input il nome del nuovo candidato da aggiungere.  
 Questa funzione può essere richiamata solo dal proprietario dello smart contract.  
   * Per effettuare questa verifica si richiama il modificatore creato a tale scopo.
@@ -83,14 +91,17 @@ Questa funzione può essere richiamata solo dal proprietario dello smart contrac
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/48562858/176996698-fff66359-cef0-4701-b70d-0e384dac6b7f.png" width=600" height="100">
 </p>
+																		
 * Funzione per autorizzare il voto. Prende come parametro di input l'indirizzo dell'elettore che sta votando.
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/48562858/176996702-579a234f-f16e-46e5-8a69-00824f4d4aba.png" width="700" height="70">
 </p>
+																		
 * Funzione per ottenere il numero totale di Candidati presenti nella votazione.
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/48562858/176996716-142769d4-0e4b-4ac2-a08d-278d1e5b24d5.png" width="600" height="80">
 </p>
+																		
 * Funzione per effettuare la votazione. Prende come parametro l'indice del Candidato che si vuole votare.
   * Verifica che l'elettore non abbia già votato. Se il relativo valore booleano è falso l'elettore non ha ancora votato e quindi si va avanti.
   * Verifica che l'elettore sia autorizzato a votare. Se il relativo valore booleano è falso significa che l'elettore non ha ancora votato quindi si va avanti.
