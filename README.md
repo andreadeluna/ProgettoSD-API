@@ -89,7 +89,7 @@ Questa funzione può essere richiamata solo dal proprietario dello smart contrac
 </p>
 * Funzione per ottenere il numero totale di Candidati presenti nella votazione.
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996716-142769d4-0e4b-4ac2-a08d-278d1e5b24d5.png" width="600" height="70">
+	<img src="https://user-images.githubusercontent.com/48562858/176996716-142769d4-0e4b-4ac2-a08d-278d1e5b24d5.png" width="600" height="80">
 </p>
 * Funzione per effettuare la votazione. Prende come parametro l'indice del Candidato che si vuole votare.
   * Verifica che l'elettore non abbia già votato. Se il relativo valore booleano è falso l'elettore non ha ancora votato e quindi si va avanti.
@@ -103,7 +103,7 @@ Questa funzione può essere richiamata solo dal proprietario dello smart contrac
 </p>
 * Funzione per ottenere il numero di voti totali effettuati durante la votazione
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996718-6eb4ce85-ac89-4c69-adfe-2eef981ca390.png" width="600" height="70">
+	<img src="https://user-images.githubusercontent.com/48562858/176996718-6eb4ce85-ac89-4c69-adfe-2eef981ca390.png" width="600" height="80">
 </p>
 * Funzione per ottenere le informazioni relative ai candidati
 <p align="center">
