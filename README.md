@@ -2,9 +2,9 @@
 ## Progetto di Sistemi Distribuiti
 ### Studenti : 
 **Nome e Cognome :** Andrea De Luna  
-**Matricola :** 313076
+**Matricola :** 313076  
 **Nome e Cognome :** Veronica Michelini  
-**Matricola :** 317197
+**Matricola :** 317197  
 **Nome e Cognome :**
 **Matricola :**
 ### Appello : 
@@ -34,13 +34,13 @@ Come prima cosa è stata definita la licenza e la versione di solidity.
 	<img src="" width="220" height="450">
 </p>
 Il contratto contiene al suo interno :
-* La struttura che definisce il "Candidato"
+* La struttura che definisce "Candidato"
   * Nome candidato
   * Numero voti che il candidato ha ottenuto
 <p align="center">
 	<img src="" width="220" height="450">
 </p>
-* La struttura che definisce l'"Elettore"
+* La struttura che definisce "Elettore"
   * Nome dell'elettore
   * Bolleano per determinare se l'elettore è autorizzato a votare
   * Indice della lista dei candidati che corrisponde alla posizione del candidato che il candidato vuole votare
