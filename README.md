@@ -85,7 +85,7 @@ Questa funzione può essere richiamata solo dal proprietario dello smart contrac
 </p>
 * Funzione per autorizzare il voto. Prende come parametro di input l'indirizzo dell'elettore che sta votando.
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996702-579a234f-f16e-46e5-8a69-00824f4d4aba.png" width="700" height="150">
+	<img src="https://user-images.githubusercontent.com/48562858/176996702-579a234f-f16e-46e5-8a69-00824f4d4aba.png" width="700" height="100">
 </p>
 * Funzione per ottenere il numero totale di Candidati presenti nella votazione.
 <p align="center">
