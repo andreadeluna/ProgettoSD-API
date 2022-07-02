@@ -32,8 +32,8 @@ Su Metamask abbiamo utilizzato due account :
 Come prima cosa è stata definita la licenza e la versione di solidity.  
 Il contratto contiene al suo interno :
 * La struttura che definisce il "Candidato"
-** Nome candidato
-** Numero voti che il candidato ha ottenuto
+  * Nome candidato
+  * Numero voti che il candidato ha ottenuto
 
 
 
