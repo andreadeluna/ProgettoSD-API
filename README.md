@@ -99,7 +99,7 @@ Questa funzione può essere richiamata solo dal proprietario dello smart contrac
   * Incrementa di 1 il numero di voti per il candidato che è stato apena votato dall'elettore.
   * Incrementa il numero totale di voti effettuati.
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996722-ff6af353-4513-41bc-931d-d242f583aa01.png" width="600" height="150">
+	<img src="https://user-images.githubusercontent.com/48562858/176996722-ff6af353-4513-41bc-931d-d242f583aa01.png" width="600" height="180">
 </p>
 * Funzione per ottenere il numero di voti totali effettuati durante la votazione
 <p align="center">
