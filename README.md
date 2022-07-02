@@ -81,7 +81,7 @@ Questa funzione può essere richiamata solo dal proprietario dello smart contrac
   * Per effettuare questa verifica si richiama il modificatore creato a tale scopo.
   * Il nuovo candidato viene inizializzato con il nome che è stato passato come parametro e numero di voti pari a 0.
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996698-fff66359-cef0-4701-b70d-0e384dac6b7f.png" width=600" height="130">
+	<img src="https://user-images.githubusercontent.com/48562858/176996698-fff66359-cef0-4701-b70d-0e384dac6b7f.png" width=600" height="100">
 </p>
 * Funzione per autorizzare il voto. Prende come parametro di input l'indirizzo dell'elettore che sta votando.
 <p align="center">
@@ -89,7 +89,7 @@ Questa funzione può essere richiamata solo dal proprietario dello smart contrac
 </p>
 * Funzione per ottenere il numero totale di Candidati presenti nella votazione.
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996716-142769d4-0e4b-4ac2-a08d-278d1e5b24d5.png" width="600" height="150">
+	<img src="https://user-images.githubusercontent.com/48562858/176996716-142769d4-0e4b-4ac2-a08d-278d1e5b24d5.png" width="600" height="100">
 </p>
 * Funzione per effettuare la votazione. Prende come parametro l'indice del Candidato che si vuole votare.
   * Verifica che l'elettore non abbia già votato. Se il relativo valore booleano è falso l'elettore non ha ancora votato e quindi si va avanti.
