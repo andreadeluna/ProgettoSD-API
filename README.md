@@ -101,10 +101,12 @@ Questa funzione può essere richiamata solo dal proprietario dello smart contrac
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/48562858/176996722-ff6af353-4513-41bc-931d-d242f583aa01.png" width="600" height="180">
 </p>
+																		 
 * Funzione per ottenere il numero di voti totali effettuati durante la votazione
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/48562858/176996718-6eb4ce85-ac89-4c69-adfe-2eef981ca390.png" width="600" height="80">
 </p>
+																		
 * Funzione per ottenere le informazioni relative ai candidati
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/48562858/176996711-00fa2e6f-3afd-46f8-a2ac-fc972462a42f.png" width="700" height="70">
