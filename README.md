@@ -51,11 +51,11 @@ Il contratto contiene al suo interno :
 </p>
 * Stringa pubblica per il Nome/Titolo della votazione, in modo che tutti possano verificare per quale votazione stanno votando
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996737-b24124bd-6f3e-426e-83c7-fddee4559c28.png" width="350" height=150">
+	<img src="https://user-images.githubusercontent.com/48562858/176996737-b24124bd-6f3e-426e-83c7-fddee4559c28.png" width="350" height=50">
 </p>
 * Mappatura dell'indirizzo a un elettore; ogni indirizzo avrà la struttura dell'elettore
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996731-43a2dd6b-e823-4afa-94d2-8089ccdbfe7c.png" width="350" height="150">
+	<img src="https://user-images.githubusercontent.com/48562858/176996731-43a2dd6b-e823-4afa-94d2-8089ccdbfe7c.png" width="350" height="50">
 </p>
 * Lista che contiene l'elenco di tutti i candidati della relativa votazione
 <p align="center">
