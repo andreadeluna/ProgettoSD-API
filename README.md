@@ -30,15 +30,12 @@ Su Metamask abbiamo utilizzato due account :
 
 ## Creazione dello smart contract
 Come prima cosa è stata definita la licenza e la versione di solidity.  
-<p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996696-7a602cd9-5d59-450f-b57d-b2660152f408.png" width="220" height="450">
-</p>
 Il contratto contiene al suo interno :
 * La struttura che definisce "Candidato"
   * Nome candidato
   * Numero voti che il candidato ha ottenuto
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996742-881cb5d9-0194-4d04-8cd9-e6d9e6c6ee70.png" width="220" height="450">
+	<img src="https://user-images.githubusercontent.com/48562858/176996742-881cb5d9-0194-4d04-8cd9-e6d9e6c6ee70.png" width="450" height="100">
 </p>
 * La struttura che definisce "Elettore"
   * Nome dell'elettore
