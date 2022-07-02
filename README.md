@@ -74,14 +74,14 @@ Definizione delle funzioni principali
 * Funzione pubblica per l'avvio della votazione. Prende come parametro di input il nome della votazione.  
 La persona che ha distribuito o creato il contratto diventerà il proprietario dell'elezione.
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996712-8b6a9a01-9152-466d-b09c-9f1669372388.png" width="400" height="170">
+	<img src="https://user-images.githubusercontent.com/48562858/176996712-8b6a9a01-9152-466d-b09c-9f1669372388.png" width="450" height="200">
 </p>
 * Funzione per l'aggiunta di un nuovo candidato alla lista dei candidati. Prende come parametro di input il nome del nuovo candidato da aggiungere.  
 Questa funzione può essere richiamata solo dal proprietario dello smart contract.  
   * Per effettuare questa verifica si richiama il modificatore creato a tale scopo.
   * Il nuovo candidato viene inizializzato con il nome che è stato passato come parametro e numero di voti pari a 0.
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996698-fff66359-cef0-4701-b70d-0e384dac6b7f.png" width=3020" height="450">
+	<img src="https://user-images.githubusercontent.com/48562858/176996698-fff66359-cef0-4701-b70d-0e384dac6b7f.png" width=300" height="450">
 </p>
 * Funzione per autorizzare il voto. Prende come parametro di input l'indirizzo dell'elettore che sta votando.
 <p align="center">
