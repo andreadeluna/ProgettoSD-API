@@ -81,7 +81,7 @@ Questa funzione può essere richiamata solo dal proprietario dello smart contrac
   * Per effettuare questa verifica si richiama il modificatore creato a tale scopo.
   * Il nuovo candidato viene inizializzato con il nome che è stato passato come parametro e numero di voti pari a 0.
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996698-fff66359-cef0-4701-b70d-0e384dac6b7f.png" width=300" height="450">
+	<img src="https://user-images.githubusercontent.com/48562858/176996698-fff66359-cef0-4701-b70d-0e384dac6b7f.png" width=500" height="150">
 </p>
 * Funzione per autorizzare il voto. Prende come parametro di input l'indirizzo dell'elettore che sta votando.
 <p align="center">
