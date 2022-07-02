@@ -30,21 +30,48 @@ Su Metamask abbiamo utilizzato due account :
 
 ## Creazione dello smart contract
 Come prima cosa è stata definita la licenza e la versione di solidity.  
+<p align="center">
+	<img src="" width="220" height="450">
+</p>
 Il contratto contiene al suo interno :
 * La struttura che definisce il "Candidato"
   * Nome candidato
   * Numero voti che il candidato ha ottenuto
+<p align="center">
+	<img src="" width="220" height="450">
+</p>
 * La struttura che definisce l'"Elettore"
   * Nome dell'elettore
   * Bolleano per determinare se l'elettore è autorizzato a votare
   * Indice della lista dei candidati che corrisponde alla posizione del candidato che il candidato vuole votare
   * Booleano per verificare se l'elettore ha già votato oppure no
+<p align="center">
+	<img src="" width="220" height="450">
+</p>
 * L'indirizzo del propietario dello smart contract. Questo indirizzo è pubblico in modo che tutti possano vedere chi è il proprietario dello smart contract
+<p align="center">
+	<img src="" width="220" height="450">
+</p>
 * Stringa pubblica per il Nome/Titolo della votazione, in modo che tutti possano verificare per quale votazione stanno votando
+<p align="center">
+	<img src="" width="220" height="450">
+</p>
 * Mappatura dell'indirizzo a un elettore; ogni indirizzo avrà la struttura dell'elettore
+<p align="center">
+	<img src="" width="220" height="450">
+</p>
 * Lista che contiene l'elenco di tutti i candidati della relativa votazione
+<p align="center">
+	<img src="" width="220" height="450">
+</p>
 * Variabile che contiene il numero totale di voti di tutta la votazione
+<p align="center">
+	<img src="" width="220" height="450">
+</p>
 * Modificatore per permettere solo al proprietario dello smart contract di aggiungere nuovi candidati
+<p align="center">
+	<img src="" width="220" height="450">
+</p>
 
 Definizione delle funzioni principali
 * Funzione pubblica per l'avvio della votazione. Prende come parametro di input il nome della votazione.  
