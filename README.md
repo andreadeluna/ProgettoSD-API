@@ -81,15 +81,15 @@ Questa funzione può essere richiamata solo dal proprietario dello smart contrac
   * Per effettuare questa verifica si richiama il modificatore creato a tale scopo.
   * Il nuovo candidato viene inizializzato con il nome che è stato passato come parametro e numero di voti pari a 0.
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996698-fff66359-cef0-4701-b70d-0e384dac6b7f.png" width=600" height="150">
+	<img src="https://user-images.githubusercontent.com/48562858/176996698-fff66359-cef0-4701-b70d-0e384dac6b7f.png" width=600" height="130">
 </p>
 * Funzione per autorizzare il voto. Prende come parametro di input l'indirizzo dell'elettore che sta votando.
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996702-579a234f-f16e-46e5-8a69-00824f4d4aba.png" width="300" height="450">
+	<img src="https://user-images.githubusercontent.com/48562858/176996702-579a234f-f16e-46e5-8a69-00824f4d4aba.png" width="600" height="450">
 </p>
 * Funzione per ottenere il numero totale di Candidati presenti nella votazione.
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996716-142769d4-0e4b-4ac2-a08d-278d1e5b24d5.png" width="300" height="450">
+	<img src="https://user-images.githubusercontent.com/48562858/176996716-142769d4-0e4b-4ac2-a08d-278d1e5b24d5.png" width="600" height="450">
 </p>
 * Funzione per effettuare la votazione. Prende come parametro l'indice del Candidato che si vuole votare.
   * Verifica che l'elettore non abbia già votato. Se il relativo valore booleano è falso l'elettore non ha ancora votato e quindi si va avanti.
@@ -99,15 +99,15 @@ Questa funzione può essere richiamata solo dal proprietario dello smart contrac
   * Incrementa di 1 il numero di voti per il candidato che è stato apena votato dall'elettore.
   * Incrementa il numero totale di voti effettuati.
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996722-ff6af353-4513-41bc-931d-d242f583aa01.png" width="300" height="450">
+	<img src="https://user-images.githubusercontent.com/48562858/176996722-ff6af353-4513-41bc-931d-d242f583aa01.png" width="600" height="450">
 </p>
 * Funzione per ottenere il numero di voti totali effettuati durante la votazione
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996718-6eb4ce85-ac89-4c69-adfe-2eef981ca390.png" width="300" height="450">
+	<img src="https://user-images.githubusercontent.com/48562858/176996718-6eb4ce85-ac89-4c69-adfe-2eef981ca390.png" width="600" height="450">
 </p>
 * Funzione per ottenere le informazioni relative ai candidati
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996711-00fa2e6f-3afd-46f8-a2ac-fc972462a42f.png" width="300" height="450">
+	<img src="https://user-images.githubusercontent.com/48562858/176996711-00fa2e6f-3afd-46f8-a2ac-fc972462a42f.png" width="600" height="450">
 </p>
 
 
