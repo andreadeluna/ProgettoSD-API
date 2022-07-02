@@ -67,7 +67,7 @@ Il contratto contiene al suo interno :
 </p>
 * Modificatore per permettere solo al proprietario dello smart contract di aggiungere nuovi candidati
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996733-470ec2af-b5d0-48d2-b441-10b691d525bc.png" width="350" height=150">
+	<img src="https://user-images.githubusercontent.com/48562858/176996733-470ec2af-b5d0-48d2-b441-10b691d525bc.png" width="350" height=120">
 </p>
 
 Definizione delle funzioni principali
