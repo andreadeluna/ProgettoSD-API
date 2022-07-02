@@ -35,7 +35,7 @@ Il contratto contiene al suo interno :
   * Nome candidato
   * Numero voti che il candidato ha ottenuto
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996742-881cb5d9-0194-4d04-8cd9-e6d9e6c6ee70.png" width="300" height="50">
+	<img src="https://user-images.githubusercontent.com/48562858/176996742-881cb5d9-0194-4d04-8cd9-e6d9e6c6ee70.png" width="300" height="100">
 </p>
 * La struttura che definisce "Elettore"
   * Nome dell'elettore
