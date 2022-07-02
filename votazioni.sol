@@ -1,3 +1,4 @@
+// Definizione licenza e versione di solidity
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.5.0 < 0.9.0;
 
@@ -19,7 +20,7 @@ contract Elezioni{
         /* Booleano per verificare se l'elettore è autorizzato a votare oppure no
         vero = l'elettore è autorizzato a votare, falso = l'elettore non è autorizzato a votare */
         bool autorizzato;       
-        // indice della lista dei candidati che corrisponde alla posizione del candidato che voglio votare
+        // Indice della lista dei candidati che corrisponde alla posizione del candidato che voglio votare
         uint identificativo;
         /* Booleano per verificare se l'elettore ha già votato oppure no
         vero = l'elettore ha già votato, falso = l'elettore deve ancora votare */
@@ -85,6 +86,7 @@ contract Elezioni{
         /* Controllo che l'elettore sia autorizzato a votare
         se è falso significa che l'elettore non ha ancora votato quindi si va avanti */
        require(elettori[msg.sender].autorizzato);
+       // Votazione per il candidato scelto
        elettori[msg.sender].identificativo = indiceCandidato;
        // Registro che l'elettore ha effettuato il suo voto e quindi non dovrebbe essere in grado di votare di nuovo
        elettori[msg.sender].votato = true;
