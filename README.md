@@ -59,11 +59,11 @@ Il contratto contiene al suo interno :
 </p>
 * Lista che contiene l'elenco di tutti i candidati della relativa votazione
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996696-7a602cd9-5d59-450f-b57d-b2660152f408.png" width="350" height="150">
+	<img src="https://user-images.githubusercontent.com/48562858/176996696-7a602cd9-5d59-450f-b57d-b2660152f408.png" width="350" height="50">
 </p>
 * Variabile che contiene il numero totale di voti di tutta la votazione
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996749-e242806a-2f86-425e-9e74-8b83a64084e9.png" width="350" height="150">
+	<img src="https://user-images.githubusercontent.com/48562858/176996749-e242806a-2f86-425e-9e74-8b83a64084e9.png" width="350" height="50">
 </p>
 * Modificatore per permettere solo al proprietario dello smart contract di aggiungere nuovi candidati
 <p align="center">
