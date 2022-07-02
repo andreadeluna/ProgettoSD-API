@@ -43,7 +43,7 @@ Il contratto contiene al suo interno :
   * Indice della lista dei candidati che corrisponde alla posizione del candidato che il candidato vuole votare
   * Booleano per verificare se l'elettore ha già votato oppure no
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996745-b35c715b-c97e-4b88-8e6f-883b13630da9.png" width="400" height="200">
+	<img src="https://user-images.githubusercontent.com/48562858/176996745-b35c715b-c97e-4b88-8e6f-883b13630da9.png" width="350" height="150">
 </p>
 * L'indirizzo del propietario dello smart contract. Questo indirizzo è pubblico in modo che tutti possano vedere chi è il proprietario dello smart contract
 <p align="center">
