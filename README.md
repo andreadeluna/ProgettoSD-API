@@ -35,10 +35,10 @@ Il contratto contiene al suo interno :
   * Nome candidato
   * Numero voti che il candidato ha ottenuto
 * La struttura che definisce l'"Elettore"
- * Nome dell'elettore
- * Bolleano per determinare se l'elettore è autorizzato a votare
- * Indice della lista dei candidati che corrisponde alla posizione del candidato che il candidato vuole votare
- * Booleano per verificare se l'elettore ha già votato oppure no
+  * Nome dell'elettore
+  * Bolleano per determinare se l'elettore è autorizzato a votare
+  * Indice della lista dei candidati che corrisponde alla posizione del candidato che il candidato vuole votare
+  * Booleano per verificare se l'elettore ha già votato oppure no
 * L'indirizzo del propietario dello smart contract. Questo indirizzo è pubblico in modo che tutti possano vedere chi è il proprietario dello smart contract
 * Stringa pubblica per il Nome/Titolo della votazione, in modo che tutti possano verificare per quale votazione stanno votando
 * Mappatura dell'indirizzo a un elettore; ogni indirizzo avrà la struttura dell'elettore
@@ -51,17 +51,17 @@ Definizione delle funzioni principali
 La persona che ha distribuito o creato il contratto diventerà il proprietario dell'elezione.
 * Funzione per l'aggiunta di un nuovo candidato alla lista dei candidati. Prende come parametro di input il nome del nuovo candidato da aggiungere.  
 Questa funzione può essere richiamata solo dal proprietario dello smart contract.  
- * Per effettuare questa verifica si richiama il modificatore creato a tale scopo.
- * Il nuovo candidato viene inizializzato con il nome che è stato passato come parametro e numero di voti pari a 0.
+  * Per effettuare questa verifica si richiama il modificatore creato a tale scopo.
+  * Il nuovo candidato viene inizializzato con il nome che è stato passato come parametro e numero di voti pari a 0.
 * Funzione per autorizzare il voto. Prende come parametro di input l'indirizzo dell'elettore che sta votando.
 * Funzione per ottenere il numero totale di Candidati presenti nella votazione.
 * Funzione per effettuare la votazione. Prende come parametro l'indice del Candidato che si vuole votare.
- * Verifica che l'elettore non abbia già votato. Se il relativo valore booleano è falso l'elettore non ha ancora votato e quindi si va avanti.
- * Verifica che l'elettore sia autorizzato a votare. Se il relativo valore booleano è falso significa che l'elettore non ha ancora votato quindi si va avanti.
- * Viene effettuata la votazione utilizzando l'indice del candidato che l'elettore ha scelto.
- * Registra che l'elettore ha effettuato il suo voto e quindi non dovrebbe essere in grado di votare di nuovo.
- * Incrementa di 1 il numero di voti per il candidato che è stato apena votato dall'elettore.
- * Incrementa il numero totale di voti effettuati.
+  * Verifica che l'elettore non abbia già votato. Se il relativo valore booleano è falso l'elettore non ha ancora votato e quindi si va avanti.
+  * Verifica che l'elettore sia autorizzato a votare. Se il relativo valore booleano è falso significa che l'elettore non ha ancora votato quindi si va avanti.
+  * Viene effettuata la votazione utilizzando l'indice del candidato che l'elettore ha scelto.
+  * Registra che l'elettore ha effettuato il suo voto e quindi non dovrebbe essere in grado di votare di nuovo.
+  * Incrementa di 1 il numero di voti per il candidato che è stato apena votato dall'elettore.
+  * Incrementa il numero totale di voti effettuati.
 * Funzione per ottenere il numero di voti totali effettuati durante la votazione
 * Funzione per ottenere le informazioni relative ai candidati
 
