@@ -47,27 +47,27 @@ Il contratto contiene al suo interno :
 </p>
 * L'indirizzo del propietario dello smart contract. Questo indirizzo è pubblico in modo che tutti possano vedere chi è il proprietario dello smart contract
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996728-57227b75-ae0b-406b-a54e-d262a6af3685.png" width="300" height="450">
+	<img src="https://user-images.githubusercontent.com/48562858/176996728-57227b75-ae0b-406b-a54e-d262a6af3685.png" width="350" height="150">
 </p>
 * Stringa pubblica per il Nome/Titolo della votazione, in modo che tutti possano verificare per quale votazione stanno votando
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996737-b24124bd-6f3e-426e-83c7-fddee4559c28.png" width="300" height="450">
+	<img src="https://user-images.githubusercontent.com/48562858/176996737-b24124bd-6f3e-426e-83c7-fddee4559c28.png" width="350" height=150">
 </p>
 * Mappatura dell'indirizzo a un elettore; ogni indirizzo avrà la struttura dell'elettore
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996731-43a2dd6b-e823-4afa-94d2-8089ccdbfe7c.png" width="300" height="450">
+	<img src="https://user-images.githubusercontent.com/48562858/176996731-43a2dd6b-e823-4afa-94d2-8089ccdbfe7c.png" width="350" height="150">
 </p>
 * Lista che contiene l'elenco di tutti i candidati della relativa votazione
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996696-7a602cd9-5d59-450f-b57d-b2660152f408.png" width="300" height="450">
+	<img src="https://user-images.githubusercontent.com/48562858/176996696-7a602cd9-5d59-450f-b57d-b2660152f408.png" width="350" height="150">
 </p>
 * Variabile che contiene il numero totale di voti di tutta la votazione
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996749-e242806a-2f86-425e-9e74-8b83a64084e9.png" width="300" height="450">
+	<img src="https://user-images.githubusercontent.com/48562858/176996749-e242806a-2f86-425e-9e74-8b83a64084e9.png" width="350" height="150">
 </p>
 * Modificatore per permettere solo al proprietario dello smart contract di aggiungere nuovi candidati
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/48562858/176996733-470ec2af-b5d0-48d2-b441-10b691d525bc.png" width="300" height="450">
+	<img src="https://user-images.githubusercontent.com/48562858/176996733-470ec2af-b5d0-48d2-b441-10b691d525bc.png" width="350" height=150">
 </p>
 
 Definizione delle funzioni principali
