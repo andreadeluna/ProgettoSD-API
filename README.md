@@ -23,12 +23,20 @@ Per interagire con la dApp della blockchain di Ethereum abbiamo utilizzato il pl
 MetaMask è quindi un portafoglio per Ethereum e uno strumento per interagire con le dApps. Per fare cioò stabilisce un canale di comunicazione tra l'estensione e la dApp in questione.  
 Una volta che l'applicazione riconosce la presenza di MetaMask esso viene abilitato ed è possibile eseguire tutte le azioni o gli eventi che consente.  
 tutte le azioni che si compiono devono essere pagate in termini di "commissioni di gas" ai minatori, in modo tale che essi possano verificare ed accettare le transazioni che si vogliono effettuare.  
-A tale scopo abbiamo scaricato dei "test ethereum" da"https://faucets.chain.link".  
+A tale scopo abbiamo scaricato dei "test ethereum" dal sito "https: //faucets.chain.link".  
 Su Metamask abbiamo utilizzato due account : 
 * Account dell'amministratore : colui che sta creando o implementando lo smart contract.
 * Account dell'elettore
 
 ## Creazione dello smart contract
+I contratti sono regol che consentono, a tutte le parti che lo accettano, di capire in cosa consisterà l'interazione che intendono effettuare.  
+Uno smart contract è in grado di realizzarsi e di farsi rispettare in modo autonomo e automatico, senza intermediari e senza dipendere da un'autorità centrale.  
+Non essendo verbale né scritto in nessuna delle lingue che parliamo, evita il problema dell'interpretazione personale.  
+è un codice visibile a tutti, che non può essere modificato in quanto presente sulla tecnologia blockchain. 
+Gli smart contract sono infatti degli "script" (codice informatici) scritti con linguaggi di programmazione, visibile a tutti e che non può essere modificato in quanto presente sulla tecnologia blockchain.  
+Il linguaggio di programmazione utilizzato per scrivere lo smart contract è Solidity, progettato specificamente per sviluppare applicazioni per la rete Ethereum.  
+Grazie a EVM e Solidity è possibile programmare azioni che verranno poi eseguite da EVM in modo decentralizzato sulla rete Ethereum e questo implica che deve essere predisposto un meccanismo di protezione per prevenirne l'uso improprio. Questo meccanismo è noto come "Gas" e serve per evitare che il sistema venga bloccato dalla creazione di loop infiniti o altre azioni dannose.
+
 Come prima cosa è stata definita la licenza e la versione di solidity.  
 Il contratto contiene al suo interno :
 * La struttura che definisce "Candidato"
