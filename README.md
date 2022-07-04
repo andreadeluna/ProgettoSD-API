@@ -131,19 +131,9 @@ Questa funzione può essere richiamata solo dal proprietario dello smart contrac
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/48562858/176996711-00fa2e6f-3afd-46f8-a2ac-fc972462a42f.png" width="700" height="70">
 </p>
+																		
+## Caso d'uso
+L'applicazione si svolge nel seguente modo
+* Apertura dell’applicazione 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* Logout
