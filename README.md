@@ -10,23 +10,24 @@
 ### Appello : 
 Sessione Estiva 2021/2022, Terzo appello
 ## Obiettivo
-Il progetto consiste nell'implementazione di un'applicazione decentrallizzata (dApp) di votazione, ovvero un'applicazione il cui funzionamento non dipende da punti di controllo o da server centrali, ma funziona sulla base di una rete decentralizzata, in cui glu utenti hanno il pieno controllo del suo funzionamento e possono accedere ai diversi servizi in modo sicuro.  
-In particolare, la differenza principale tra un'applicazione di questo tipo e quelle centralizzate è che le dApp girano su una blockchain o un network di computer peer-to-peer (P2P) invece che su un singolo computer.  
-L'accettazione o meno delle operazioni effettuate dagli utenti della dApp, è subordinata alla programmazione dello "smart contract", che cerca di garantire che tutti i partecipanti agiscano nel quadro da esso specificato.  
+Il progetto consiste nell'implementazione di un'applicazione decentrallizzata (DApp) di votazione che esegue le funzioni dello smart contract attraverso un'interfaccia utente. Ovvero un'applicazione il cui funzionamento non dipende da punti di controllo o da server centrali, ma funziona sulla base di una rete decentralizzata, in cui gli utenti hanno il pieno controllo del suo funzionamento e possono accedere ai diversi servizi in modo sicuro.  
+In particolare, la differenza principale tra un'applicazione di questo tipo e quelle centralizzate è che le DApp girano su una blockchain o un network di computer peer-to-peer (P2P) invece che su un singolo computer.  
+L'accettazione o meno delle operazioni effettuate dagli utenti della DApp, è subordinata alla programmazione dello "smart contract", che cerca di garantire che tutti i partecipanti agiscano nel quadro da esso specificato.  
 Anche la nostra applicazione di voto quindi, può operare in modo autonomo grazie all'uso di uno smart contract, ovvero codice scritto sulla blockchain
-e che quindi una volta implementato non possono essere modificato in modo semplice.  
+e che quindi una volta implementato non può essere modificato in modo semplice.  
 Nello smart contract realizzato per la nostra applicazione sono presenti :
 * Un amministratore (proprietario dell'elezione/amministratore) che ha il compito di distribuire il contratto, autorizza gli elettori a votare ed inserisce nuovi candidati alla lista.
 * Degli elettori che possono votare un candidato una volta che il contratto è stato distribuito.
 ## Creazione di un portafoglio Metamask
-Per interagire con la dApp della blockchain di Ethereum abbiamo utilizzato il plug-in per browser MetaMask in quanto funge da ponte tra dApp e browser web grazie web3.js, una libreria che fa parte dello sviluppo ufficiale di Ethereum nata per consentire la creazione di applicazioni web che potessero interagire con la blockchain di Ethereum.  
-MetaMask è quindi un portafoglio per Ethereum e uno strumento per interagire con le dApps. Per fare cioò stabilisce un canale di comunicazione tra l'estensione e la dApp in questione.  
+Per interagire con la DApp della blockchain di Ethereum abbiamo utilizzato il plug-in per browser MetaMask in quanto funge da ponte tra DApp e browser web grazie web3.js, una libreria che fa parte dello sviluppo ufficiale di Ethereum nata per consentire la creazione di applicazioni web che potessero interagire con la blockchain di Ethereum.  
+MetaMask è quindi un portafoglio per Ethereum e uno strumento per interagire con le DApps. Per fare cioò stabilisce un canale di comunicazione tra l'estensione e la dApp in questione.  
 Una volta che l'applicazione riconosce la presenza di MetaMask esso viene abilitato ed è possibile eseguire tutte le azioni o gli eventi che consente.  
 tutte le azioni che si compiono devono essere pagate in termini di "commissioni di gas" ai minatori, in modo tale che essi possano verificare ed accettare le transazioni che si vogliono effettuare.  
 A tale scopo abbiamo scaricato dei "test ethereum" dal sito "https: //faucets.chain.link".  
 Su Metamask abbiamo utilizzato due account : 
 * Account dell'amministratore : colui che sta creando o implementando lo smart contract.
-* Account dell'elettore
+* Account dell'elettore : colui che una volta autorizzato può esprimere il suo voto.
+Le chiavi private del proprietario e dell'elettore sono poi state definite nel file "costanti.dart". Esse sono necessarie perchè ogni volta che si usa una funzione vengono addebitate le spese del gas e per pagare queste spese serve la chiave privata, altrimenti chiunque potrebbe usare la chiave pubblica di qualcun'altro per pagare le spese di gas. Quindi servono le chiavi private per firmare il contratto.
 
 ## Creazione dello smart contract
 I contratti sono regol che consentono, a tutte le parti che lo accettano, di capire in cosa consisterà l'interazione che intendono effettuare.  
