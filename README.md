@@ -30,7 +30,7 @@ Su Metamask abbiamo utilizzato due account :
 Le chiavi private del proprietario e dell'elettore sono poi state definite nel file "costanti.dart". Esse sono necessarie perchè ogni volta che si usa una funzione vengono addebitate le spese del gas e per pagare queste spese serve la chiave privata, altrimenti chiunque potrebbe usare la chiave pubblica di qualcun'altro per pagare le spese di gas. Quindi servono le chiavi private per firmare il contratto.
 
 ## Creazione dello smart contract
-I contratti sono regol che consentono, a tutte le parti che lo accettano, di capire in cosa consisterà l'interazione che intendono effettuare.  
+I contratti sono regole che consentono, a tutte le parti che lo accettano, di capire in cosa consisterà l'interazione che intendono effettuare.  
 Uno smart contract è in grado di realizzarsi e di farsi rispettare in modo autonomo e automatico, senza intermediari e senza dipendere da un'autorità centrale.  
 Non essendo verbale né scritto in nessuna delle lingue che parliamo, evita il problema dell'interpretazione personale.  
 è un codice visibile a tutti, che non può essere modificato in quanto presente sulla tecnologia blockchain. 
