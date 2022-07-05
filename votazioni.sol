@@ -20,7 +20,7 @@ contract Elezioni{
         /* Booleano per verificare se l'elettore è autorizzato a votare oppure no
         vero = l'elettore è autorizzato a votare, falso = l'elettore non è autorizzato a votare */
         bool autorizzato;       
-        // Indice della lista dei candidati che corrisponde alla posizione del candidato che voglio votare
+        // Indice della lista dei candidati che corrisponde alla posizione del candidato che l'elettore vuole votare
         uint identificativo;
         /* Booleano per verificare se l'elettore ha già votato oppure no
         vero = l'elettore ha già votato, falso = l'elettore deve ancora votare */
@@ -34,7 +34,7 @@ contract Elezioni{
     // Nome/Titolo della votazione
     string public nomeVotazione;
 
-    // Mappo l'indirizzo a un elettore; ogni indirizzo avrà la struttura dell'elettore definita alla riga 16
+    // Mappo l'indirizzo a un elettore; ogni indirizzo avrà la struttura dell'elettore
     mapping(address => Elettore) public elettori;
     
     // Elenco candidati
@@ -53,8 +53,8 @@ contract Elezioni{
 
     // Definizione della funzione di inizio della votazione
     function inizioVotazione(string memory _nomeVotazione) public{
-        /* La persona che ha distribuito o creato il contratto diventerà il proprietario dell'elezione
-        Persona che ha attivato l'elezione (che ha distribuito il contratto) */
+        /* La persona che ha distribuito o creato il contratto diventerà il proprietario della votazione
+        Persona che ha attivato la votazione (che ha distribuito il contratto) */
         proprietario = msg.sender;
         nomeVotazione = _nomeVotazione;
     }
@@ -92,7 +92,7 @@ contract Elezioni{
        elettori[msg.sender].votato = true;
        // Incremento di 1 il numero di voti per il candidato che è stato apena votato dall'elettore
        candidati[indiceCandidato].numeroVoti++;
-       // Incremento del numero totale di voti effettuati
+       // Incremento di 1 il numero totale di voti effettuati
        votiTotali++;
     }
 
@@ -101,7 +101,7 @@ contract Elezioni{
         return votiTotali;
     }
     
-    // Definizione della funzione che restituisce le informazioni relative ai candidati
+    // Definizione della funzione che restituisce le informazioni relative al candidato
     function infoCandidato(uint index) public view returns(Candidato memory){
         return candidati[index];
     }
