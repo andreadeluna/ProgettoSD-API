@@ -9,6 +9,10 @@ contract Elezioni{
     struct Candidato{
         // Nome del candidato
         string nome;
+        // Partito di appartenenza
+        string partito;
+        // Descrizione del candidato
+        string descrizione;
         // Numero di voti che il candidato ha ottenuto
         uint numeroVoti;
     }
@@ -60,10 +64,15 @@ contract Elezioni{
     }
 
     /* Definizione della funzione che permette di aggiungere un nuovo candidato.
-    Prende come parametro di input il nome del nuovo candidato */
-    function agiungiCandidato(string memory _nomeCandidato) soloProprietario public{
-        // Inizializzazione del nuovo candidato con il nome che è stato passato come parametro e numero di voti pari a 0
-        candidati.push(Candidato(_nomeCandidato, 0));
+    Prende come parametro di input il nome, il partito e la descrizione del nuovo candidato */
+    function aggiungiCandidato(
+        string memory _nomeCandidato, 
+        string memory _partito, 
+        string memory _descrizione
+        ) soloProprietario public {
+        // Inizializzazione del nuovo candidato con il nome, il partito e 
+        // la descrizione, passati come parametri, e numero di voti pari a 0
+        candidati.push(Candidato(_nomeCandidato, _partito, _descrizione, 0));
     }
 
     /* Definizione della funzione che permette di autorizzare un voto.
